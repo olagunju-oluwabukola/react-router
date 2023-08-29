@@ -11,6 +11,8 @@ const Rootlayout = () => {
         <NavLink to='/' className=' bg-red-700 w-20 text-center text-white pt-2'>Home</NavLink> <br />
          
          <NavLink to='about'className='bg-red-700 w-20 text-center text-white pt-2'>About</NavLink>
+
+         <NavLink to='Help'className='bg-red-700 w-20 text-center text-white pt-2'>Help</NavLink>
         </div>
        
     </nav>
@@ -24,4 +26,4 @@ const Rootlayout = () => {
   )
 }
 
-export default Rootlayout
+export default Rootlayout  
